@@ -1,7 +1,7 @@
-class HistoricalData
+class HistoricalTransaction
   include DataMapper::Resource
 
-  property :id,          Serial
+  property :id,            Serial
 
   property :low_price,     Integer
   property :average_price, Integer
@@ -11,6 +11,6 @@ class HistoricalData
   property :order_count,   Integer
   property :date,          DateTime
 
-  #belongs_to :item
-  #belongs_to :region
+  belongs_to :item
+  belongs_to :region
 end
