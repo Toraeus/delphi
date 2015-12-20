@@ -1,4 +1,11 @@
-require_relative 'config/db'
+require_relative 'config/boot'
+
+namespace :import do
+  desc "items"
+  task :items do
+    ItemListImporter.import!
+  end
+end
 
 namespace :db do
   desc "update"
