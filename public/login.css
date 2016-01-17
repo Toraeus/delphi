@@ -1,0 +1,37 @@
+body
+{
+    font: 1em "Trebuchet MS",sans-serif;
+    background: black url(https://community.eveonline.com/bitmaps/interface/community/bg.jpg) top right no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+td
+{
+    padding-right:2em;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#wrapper
+{
+    margin:2em;
+    padding-top:1em;
+    padding-right:2em;
+    padding-left:2em;
+    display:inline-block;
+}
+
+.bottom-menu
+{
+    float:right;
+    padding:0.5em;
+}
+
+.name
+{
+    padding-right:0.5em;
+}
